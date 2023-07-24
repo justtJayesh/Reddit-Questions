@@ -14,7 +14,6 @@ import {
 } from "@tremor/react";
 
 export const Cards = ({ title, score, url, selftext_html }) => {
-    console.log("Cards", title, score);
 
     return (
         <Card className="w-10/12 mx-auto mb-5">
