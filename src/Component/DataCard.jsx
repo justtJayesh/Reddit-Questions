@@ -16,7 +16,7 @@ const DataCard = () => {
 
     return (
         <div>
-            <Metric className="text-center mt-5 mb-5">Listing Data</Metric>
+            <Metric className="text-center mt-5 mb-5">Reddit Questions</Metric>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
                 {data?.map((el, i) => (
                     <Cards key={i} {...el.data} />
